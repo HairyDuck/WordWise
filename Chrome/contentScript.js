@@ -3,10 +3,12 @@
   // Default settings for the extension
   const defaultSettings = {
     intensity: 1.0,
-    boldElements: ['p']
+    boldElements: ['p'],
+    boldPosition: 'beginning',
+    boldPercentage: 33
   };
 
-  // Function to load settings from chrome storage
+// Function to load settings from chrome storage
   const loadSettings = () => {
     return new Promise((resolve) => {
       chrome.storage.sync.get(defaultSettings, (storedSettings) => {
@@ -16,16 +18,17 @@
     });
   };
 
-  // Function to transform a word based on the settings
-  const transformWord = (word, settings) => {
-    // Calculate the length of the first third of the word
-    const length = Math.ceil(word.length / 3);
-    // Split the word into the first third and the remaining characters
-    const firstThird = word.substring(0, length);
-    const remainingChars = word.substring(length);
 
-    // Return the word with the first third bolded
-    return `<b>${firstThird}</b>${remainingChars}`;
+// Function to transform a word based on the settings
+  const transformWord = (word, settings) => {
+    // Calculate the length of the part of the word to bold
+    const length = Math.ceil(word.length * (settings.boldPercentage / 100));
+    // Split the word into the part to bold and the remaining characters
+    const partToBold = settings.boldPosition === 'beginning' ? word.substring(0, length) : word.substring(word.length - length);
+    const remainingChars = settings.boldPosition === 'beginning' ? word.substring(length) : word.substring(0, word.length - length);
+
+    // Return the word with the part to bold bolded
+    return settings.boldPosition === 'beginning' ? `<b>${partToBold}</b>${remainingChars}` : `${remainingChars}<b>${partToBold}</b>`;
   };
 
   // Function to transform text nodes
