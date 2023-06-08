@@ -19,6 +19,7 @@ Living with dyslexia can present challenges when reading online content. WordWis
 
 - **Seamless Integration**: WordWise integrates seamlessly into your browser, automatically applying its dyslexia-friendly enhancements to any webpage you visit. This means you can browse the web as you normally would, with the added benefit of WordWise's enhancements.
 
+
 ## 🚀 Getting Started
 
 You can install WordWise from the [Chrome Web Store](https://chrome.google.com/webstore/detail/egejahhddjlpaikkhjbnjblmbaednkfk). Once installed, WordWise will automatically begin transforming text on webpages. You can customize your settings at any time by clicking on the WordWise icon in your browser toolbar.
@@ -36,6 +37,12 @@ been proven to improve readability for individuals with dyslexia.
 - **Redesigned options popup**: Enhance the design and user experience of the options popup. We aim to create a more intuitive and visually appealing interface for users to customize their WordWise settings.
 
 - **Browser Support**: Extend support to Mozilla Firefox, Microsoft Edge, and Apple Safari. We understand the importance of accessibility across all platforms and are working to make WordWise available on these popular browsers.
+
+- **Unit Tests**: Implement unit tests to ensure the reliability and stability of WordWise. This will help us catch and fix bugs early, and ensure that new features don't break existing functionality.
+
+- **Add More Screenshots**: Include more screenshots in the README to provide a visual guide of WordWise's features and settings. This will help users understand how to use and customize WordWise.
+
+- **Performance Optimization**: Optimize the performance of WordWise to ensure it runs smoothly even on webpages with a large amount of text. This could involve optimizing the word transformation algorithm, or implementing features like lazy loading.
 
 ## 🤝 Contributing
 
@@ -61,6 +68,6 @@ Thank you for choosing WordWise. Enjoy your enhanced reading experience! 📖✨
 
 ## 📸 Screenshots
 
-![Options Pane](https://github.com/HairyDuck/WordWise/blob/main/screenshot/options-pane.png?raw=true)
+![Options Pane](https://github.com/HairyDuck/WordWise/blob/main/screenshots/options-pane.png?raw=true)
 
 The screenshot above shows the options pane of WordWise. Here, you can customize the settings to suit your reading preferences.
