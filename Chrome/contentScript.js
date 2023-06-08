@@ -76,7 +76,7 @@
   // Initialize the extension
   initializeExtension();
 
-  // Listen for changes in the chromeSure, here's the code with added comments to explain what each part does:
+  // Listen for changes in the chrome
 
   
     chrome.storage.onChanged.addListener((changes) => {
