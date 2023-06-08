@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WordWise Options</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    h1 {
+      color: #007BFF;
+    }
+
+    h2 {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .banner {
+      background-color: #FF8C00;
+      padding: 10px;
+      margin: -20px -20px 20px -20px;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      position: relative;
+    }
+
+    .banner a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .banner a:hover {
+      text-decoration: underline;
+    }
+
+    .github-logo {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    WordWise is an open-source project.<br><a href="https://github.com/HairyDuck/WordWise" target="_blank">Contribute on GitHub</a>
+    <img class="github-logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo">
+  </div>
+
+  <h1>WordWise Options</h1>
+  
+  <label for="intensity">Word Transformation Intensity:</label>
+  <input type="range" id="intensity" min="0" max="1" step="0.1">
+
+  <h2>Elements to Bold:</h2>
+  <label for="boldParagraph">
+    <input type="checkbox" id="boldParagraph" name="boldElements" value="p" checked> Paragraphs
+  </label>
+  <label for="boldHeaders">
+    <input type="checkbox" id="boldHeaders" name="boldElements" value="h1"> H1
+  </label>
+  <label for="boldHeaders">
+    <input type="checkbox" id="boldHeaders" name="boldElements" value="h2"> H2
+  </label>
+  <label for="boldHeaders">
+    <input type="checkbox" id="boldHeaders" name="boldElements" value="h3"> H3
+  </label>
+  <label for="boldHeaders">
+    <input type="checkbox" id="boldHeaders" name="boldElements" value="h4"> H4
+  </label>
+  <label for="boldHeaders">
+    <input type="checkbox" id="boldHeaders" name="boldElements" value="h5"> H5
+  </label>
+  <label for="boldHeaders">
+    <input type="checkbox" id="boldHeaders" name="boldElements" value="h6"> H6
+  </label>
+  <label for="boldSpans">
+    <input type="checkbox" id="boldSpans" name="boldElements" value="span"> Spans
+  </label>
+  <!-- Add more options for different elements if desired -->
+
+  <button id="saveButton">Save</button>
+
+  <script src="popupScript.js"></script>
+</body>
+</html>

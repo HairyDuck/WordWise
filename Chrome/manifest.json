@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "WordWise: Dyslexia Helper",
+  "version": "1.0",
+  "description": "WordWise is a powerful tool designed to enhance the web reading experience for individuals with dyslexia. It transforms and emphasizes words on web pages, making them easier to read and comprehend. This open-source project encourages contributions to improve and expand its features. Learn more and contribute at https://github.com/HairyDuck/WordWise.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "backgroundScript.js"
+  }
+}
