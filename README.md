@@ -71,5 +71,4 @@ Thank you for choosing WordWise. Enjoy your enhanced reading experience! 📖✨
 ## 📸 Screenshots
 
 ![Options Pane](https://github.com/HairyDuck/WordWise/blob/main/screenshots/options-pane.png?raw=true)
-
-The screenshot above shows the options pane of WordWise. Here, you can customize the settings to suit your reading preferences.
+![Example on BBC](https://github.com/HairyDuck/WordWise/blob/main/screenshots/example-bbc.png?raw=true)
