@@ -30,9 +30,7 @@ A new approach to reading, known as 'bionic reading', has been gaining attention
 
 ## 📝 To Do
 
-- **Dyslexia-friendly font substitution**: Substitute fonts with dyslexia-friendly options for improved readability. This feature will allow users to choose from a selection of fonts that have
-
-been proven to improve readability for individuals with dyslexia.
+- **Dyslexia-friendly font substitution**: Substitute fonts with dyslexia-friendly options for improved readability. This feature will allow users to choose from a selection of fonts that have been proven to improve readability for individuals with dyslexia.
 
 - **Redesigned options popup**: Enhance the design and user experience of the options popup. We aim to create a more intuitive and visually appealing interface for users to customize their WordWise settings.
 
