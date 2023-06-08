@@ -1,7 +1,9 @@
+
 # WordWise: Dyslexia Helper 📚✨
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/egejahhddjlpaikkhjbnjblmbaednkfk.svg?style=flat-square)](https://chrome.google.com/webstore/detail/egejahhddjlpaikkhjbnjblmbaednkfk)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
+![WordWise Logo](https://github.com/HairyDuck/WordWise/blob/main/icons/128x128.png?raw=true)
+
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/egejahhddjlpaikkhjbnjblmbaednkfk.svg?style=flat-square)](https://chrome.google.com/webstore/detail/egejahhddjlpaikkhjbnjblmbaednkfk) [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
 ## 📖 About WordWise
 
@@ -21,14 +23,18 @@ Living with dyslexia can present challenges when reading online content. WordWis
 
 You can install WordWise from the [Chrome Web Store](https://chrome.google.com/webstore/detail/egejahhddjlpaikkhjbnjblmbaednkfk). Once installed, WordWise will automatically begin transforming text on webpages. You can customize your settings at any time by clicking on the WordWise icon in your browser toolbar.
 
-## 📚 The Science Behind WordWise - Case Study
+## 📚 Case Study
 
 A new approach to reading, known as 'bionic reading', has been gaining attention. This method, developed by typography expert Renato Casutt, guides readers through text using "artificial fixation points". By bolding or highlighting the letters at the beginning of a word, a reader's brain can identify them with less effort and concentration. This technique speeds up reading as it reduces the need to focus on the entirety of every word. You can read more about this approach in this [HuffPost article](https://www.huffingtonpost.co.uk/entry/what-is-bionic-reading-does-it-work_uk_628749a3e4b05cfc268a59ff).
 
 ## 📝 To Do
 
-- **Dyslexia-friendly font substitution**: Substitute fonts with dyslexia-friendly options for improved readability. This feature will allow users to choose from a selection of fonts that have been proven to improve readability for individuals with dyslexia.
+- **Dyslexia-friendly font substitution**: Substitute fonts with dyslexia-friendly options for improved readability. This feature will allow users to choose from a selection of fonts that have
+
+been proven to improve readability for individuals with dyslexia.
+
 - **Redesigned options popup**: Enhance the design and user experience of the options popup. We aim to create a more intuitive and visually appealing interface for users to customize their WordWise settings.
+
 - **Browser Support**: Extend support to Mozilla Firefox, Microsoft Edge, and Apple Safari. We understand the importance of accessibility across all platforms and are working to make WordWise available on these popular browsers.
 
 ## 🤝 Contributing
@@ -52,3 +58,9 @@ Your support can make a significant difference in raising awareness about dyslex
 We hope that WordWise will make your online reading experience more enjoyable and less stressful. Remember, everyone's experience with dyslexia is unique, and what works for one person might not work for another. We encourage you to experiment with the settings and find what works best for you.
 
 Thank you for choosing WordWise. Enjoy your enhanced reading experience! 📖✨
+
+## 📸 Screenshots
+
+![Options Pane](https://github.com/HairyDuck/WordWise/blob/main/screenshot/options-pane.png?raw=true)
+
+The screenshot above shows the options pane of WordWise. Here, you can customize the settings to suit your reading preferences.
