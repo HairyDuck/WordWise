@@ -44,6 +44,10 @@ been proven to improve readability for individuals with dyslexia.
 
 - **Performance Optimization**: Optimize the performance of WordWise to ensure it runs smoothly even on webpages with a large amount of text. This could involve optimizing the word transformation algorithm, or implementing features like lazy loading.
 
+- **Linting**: Implement a linting system to ensure code quality and consistency. This will help us maintain a clean and readable codebase, making it easier for contributors to understand and work with the code.
+
+- **Localization**: Translate WordWise into multiple languages to make it accessible to non-English speakers. We would love to have community contributions for translations!
+
 ## 🤝 Contributing
 
 We welcome and encourage contributions from the community! If you have ideas, bug reports, or would like to contribute code to improve WordWise, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md). Your contributions can make a significant difference in the lives of dyslexic individuals by creating a more accessible browsing experience.
